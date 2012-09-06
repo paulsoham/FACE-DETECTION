@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4DAFEF2150F56F400DDC023 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DAFEF1150F56F400DDC023 /* UIKit.framework */; };
+		A4DAFEF4150F56F400DDC023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DAFEF3150F56F400DDC023 /* Foundation.framework */; };
+		A4DAFEF6150F56F400DDC023 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DAFEF5150F56F400DDC023 /* CoreGraphics.framework */; };
+		A4DAFEFC150F56F400DDC023 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4DAFEFA150F56F400DDC023 /* InfoPlist.strings */; };
+		A4DAFEFE150F56F400DDC023 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DAFEFD150F56F400DDC023 /* main.m */; };
+		A4DAFF02150F56F400DDC023 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DAFF01150F56F400DDC023 /* AppDelegate.m */; };
+		A4DAFF05150F56F400DDC023 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DAFF04150F56F400DDC023 /* ViewController.m */; };
+		A4DAFF17150F578400DDC023 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DAFF16150F578400DDC023 /* CoreImage.framework */; };
+		A4DAFF1A150F578E00DDC023 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DAFF19150F578E00DDC023 /* QuartzCore.framework */; };
+		A4DAFF1D150F583300DDC023 /* sachin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4DAFF1B150F583300DDC023 /* sachin.jpg */; };
+		A4DAFF1E150F583300DDC023 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4DAFF1C150F583300DDC023 /* 1.jpg */; };
+		A4DAFF24150F5DE800DDC023 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4DAFF23150F5DE700DDC023 /* icon.png */; };
+		A4DAFF3A150F78CD00DDC023 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4DAFF39150F78CD00DDC023 /* 2.jpg */; };
+		A4DAFF3C150F794600DDC023 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4DAFF3B150F794600DDC023 /* 3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4DAFEED150F56F400DDC023 /* FaceDetection_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDetection_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DAFEF1150F56F400DDC023 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4DAFEF3150F56F400DDC023 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4DAFEF5150F56F400DDC023 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4DAFEF9150F56F400DDC023 /* FaceDetection_Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceDetection_Test-Info.plist"; sourceTree = "<group>"; };
+		A4DAFEFB150F56F400DDC023 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4DAFEFD150F56F400DDC023 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4DAFEFF150F56F400DDC023 /* FaceDetection_Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceDetection_Test-Prefix.pch"; sourceTree = "<group>"; };
+		A4DAFF00150F56F400DDC023 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4DAFF01150F56F400DDC023 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4DAFF03150F56F400DDC023 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4DAFF04150F56F400DDC023 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4DAFF16150F578400DDC023 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		A4DAFF19150F578E00DDC023 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A4DAFF1B150F583300DDC023 /* sachin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sachin.jpg; sourceTree = "<group>"; };
+		A4DAFF1C150F583300DDC023 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		A4DAFF23150F5DE700DDC023 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A4DAFF39150F78CD00DDC023 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		A4DAFF3B150F794600DDC023 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4DAFEEA150F56F400DDC023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DAFF1A150F578E00DDC023 /* QuartzCore.framework in Frameworks */,
+				A4DAFF17150F578400DDC023 /* CoreImage.framework in Frameworks */,
+				A4DAFEF2150F56F400DDC023 /* UIKit.framework in Frameworks */,
+				A4DAFEF4150F56F400DDC023 /* Foundation.framework in Frameworks */,
+				A4DAFEF6150F56F400DDC023 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4DAFEE2150F56F400DDC023 = {
+			isa = PBXGroup;
+			children = (
+				A4DAFF23150F5DE700DDC023 /* icon.png */,
+				A4DAFEF7150F56F400DDC023 /* FaceDetection_Test */,
+				A4DAFEF0150F56F400DDC023 /* Frameworks */,
+				A4DAFEEE150F56F400DDC023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4DAFEEE150F56F400DDC023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4DAFEED150F56F400DDC023 /* FaceDetection_Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4DAFEF0150F56F400DDC023 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4DAFF19150F578E00DDC023 /* QuartzCore.framework */,
+				A4DAFF16150F578400DDC023 /* CoreImage.framework */,
+				A4DAFEF1150F56F400DDC023 /* UIKit.framework */,
+				A4DAFEF3150F56F400DDC023 /* Foundation.framework */,
+				A4DAFEF5150F56F400DDC023 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4DAFEF7150F56F400DDC023 /* FaceDetection_Test */ = {
+			isa = PBXGroup;
+			children = (
+				A4DAFF00150F56F400DDC023 /* AppDelegate.h */,
+				A4DAFF01150F56F400DDC023 /* AppDelegate.m */,
+				A4DAFF03150F56F400DDC023 /* ViewController.h */,
+				A4DAFF04150F56F400DDC023 /* ViewController.m */,
+				A4DAFF1B150F583300DDC023 /* sachin.jpg */,
+				A4DAFF3B150F794600DDC023 /* 3.jpg */,
+				A4DAFF39150F78CD00DDC023 /* 2.jpg */,
+				A4DAFF1C150F583300DDC023 /* 1.jpg */,
+				A4DAFEF8150F56F400DDC023 /* Supporting Files */,
+			);
+			path = FaceDetection_Test;
+			sourceTree = "<group>";
+		};
+		A4DAFEF8150F56F400DDC023 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4DAFEF9150F56F400DDC023 /* FaceDetection_Test-Info.plist */,
+				A4DAFEFA150F56F400DDC023 /* InfoPlist.strings */,
+				A4DAFEFD150F56F400DDC023 /* main.m */,
+				A4DAFEFF150F56F400DDC023 /* FaceDetection_Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4DAFEEC150F56F400DDC023 /* FaceDetection_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DAFF0B150F56F400DDC023 /* Build configuration list for PBXNativeTarget "FaceDetection_Test" */;
+			buildPhases = (
+				A4DAFEE9150F56F400DDC023 /* Sources */,
+				A4DAFEEA150F56F400DDC023 /* Frameworks */,
+				A4DAFEEB150F56F400DDC023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceDetection_Test;
+			productName = FaceDetection_Test;
+			productReference = A4DAFEED150F56F400DDC023 /* FaceDetection_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4DAFEE4150F56F400DDC023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A4DAFEE7150F56F400DDC023 /* Build configuration list for PBXProject "FaceDetection_Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4DAFEE2150F56F400DDC023;
+			productRefGroup = A4DAFEEE150F56F400DDC023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4DAFEEC150F56F400DDC023 /* FaceDetection_Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4DAFEEB150F56F400DDC023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DAFEFC150F56F400DDC023 /* InfoPlist.strings in Resources */,
+				A4DAFF1D150F583300DDC023 /* sachin.jpg in Resources */,
+				A4DAFF1E150F583300DDC023 /* 1.jpg in Resources */,
+				A4DAFF24150F5DE800DDC023 /* icon.png in Resources */,
+				A4DAFF3A150F78CD00DDC023 /* 2.jpg in Resources */,
+				A4DAFF3C150F794600DDC023 /* 3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4DAFEE9150F56F400DDC023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DAFEFE150F56F400DDC023 /* main.m in Sources */,
+				A4DAFF02150F56F400DDC023 /* AppDelegate.m in Sources */,
+				A4DAFF05150F56F400DDC023 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4DAFEFA150F56F400DDC023 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4DAFEFB150F56F400DDC023 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4DAFF09150F56F400DDC023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "454172C6-1B2D-4F89-B680-5FB5781DE2AF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "454172C6-1B2D-4F89-B680-5FB5781DE2AF";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4DAFF0A150F56F400DDC023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "454172C6-1B2D-4F89-B680-5FB5781DE2AF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "454172C6-1B2D-4F89-B680-5FB5781DE2AF";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4DAFF0C150F56F400DDC023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceDetection_Test/FaceDetection_Test-Prefix.pch";
+				INFOPLIST_FILE = "FaceDetection_Test/FaceDetection_Test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "454172C6-1B2D-4F89-B680-5FB5781DE2AF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "454172C6-1B2D-4F89-B680-5FB5781DE2AF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4DAFF0D150F56F400DDC023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceDetection_Test/FaceDetection_Test-Prefix.pch";
+				INFOPLIST_FILE = "FaceDetection_Test/FaceDetection_Test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "454172C6-1B2D-4F89-B680-5FB5781DE2AF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "454172C6-1B2D-4F89-B680-5FB5781DE2AF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4DAFEE7150F56F400DDC023 /* Build configuration list for PBXProject "FaceDetection_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DAFF09150F56F400DDC023 /* Debug */,
+				A4DAFF0A150F56F400DDC023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DAFF0B150F56F400DDC023 /* Build configuration list for PBXNativeTarget "FaceDetection_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DAFF0C150F56F400DDC023 /* Debug */,
+				A4DAFF0D150F56F400DDC023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4DAFEE4150F56F400DDC023 /* Project object */;
+}
